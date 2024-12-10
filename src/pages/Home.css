@@ -1,0 +1,50 @@
+.home-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .home-description {
+    font-size: 1.2rem;
+    color: #34495e;
+    margin-bottom: 2rem;
+  }
+  
+  .home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; /* Espacio entre la imagen y el botón */
+    margin-bottom: 2rem;
+  }
+  
+  .home-image {
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .home-cta {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-cta:hover {
+    background-color: #2980b9;
+  }
+  
+  
+  
